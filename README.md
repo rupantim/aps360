@@ -22,10 +22,8 @@ Artificial Intelligence Fundamentals
 
 <h3>Tutorials</h3>
 
-* *Tutorials 1-5 * > These tutorials cover concepts very similar to Labs 1-5 using different problems.
+* *Tutorials 1-5* > These tutorials cover concepts very similar to Labs 1-5 using different problems.
 
 * *Tutorial 6 Trump Tweet Generator Using a Generative RNN* > This tutorial highlighted the differences between **prediction and generative RNNs**. A **word-level generative RNN** took tokenized tweets from a collection of Donald Trump's tweets in 2018 and used concepts of **teacher-forcing, sampling and temperature** to generate a wide range of tweets given an input sequence.  
 
-* *Tutorial 7 GANs and Adversarial Attacks* > This tutorial introduced 
-
-* *Tutorial 8 Reinforcement Learning* > 
+* *Tutorial 7 GANs and Adversarial Attacks* > This tutorial reused the MNIST dataset to train a **GAN** that could generate new handwritten digits. It also provided an insight into how difficult it is to train the discriminator and generator given the shapes of their respective training curves. The second part of the tutorial demonstrated the ease with which adversarial examples could be created to fool a GAN. By adding noise, which had been tuned using an optimizer, to an input image, a **targetted adversarial attack** was executed and resulted in the network misclassifying handwritten digits with certainties of 70-90%. 
